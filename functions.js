@@ -69,18 +69,20 @@ update(fruitquantity);
 
 
 //Write a function to calculate the total number of items in the inventory.
-function calculate(fruitquantity){
-    let sum=0;
+//let sum=0;
     // for(let i=0;i<num.length;i++){
     //  sum+=num[i];
     // }
     // console.log(sum);
-    fruitquantity.forEach(element => {
-        sum+=element
-    });
-    console.log(sum)
+    //fruitquantity.forEach(element => {
+      //  console.log(element.length)
+   // });
+    // console.log(sum)
+function calculate(){
+    return fruitarr.length
+    
 }
-calculate(fruitquantity)
+console.log(calculate(fruitarr));
 
 
 //Write a function to find the item with the lowest stock quantity.
